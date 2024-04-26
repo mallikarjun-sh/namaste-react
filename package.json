@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "This is Namaste React by Akshay Saini",
   
-  "scripts": {
+  "scripts": { 
+    "__comment":"to invoke the below commands (start, build, test) on the command prompt use npm run start or npm run build or npm run test",
+    "__comment2": "on the command prompt you can write npx parcel index.html",
+    "__comment3": "on the command prompt npx parcel build index.html",
+    "start": "parcel index.html",   
+    "build": "parcel build index.html",  
     "test": "jest"
   },
   "repository": {
